@@ -1,0 +1,1 @@
+export const bookUrl = "http://localhost:4000";

@@ -1,0 +1,29 @@
+.searchImage
+{
+  width: 50px;
+  height: 50px;
+}
+
+.gridLabel, .gridImage
+{
+  padding: 10px;
+}
+
+.gridLabel
+{
+  font-size: 14px;
+  font-weight: 'regular';
+}
+
+.gridAuthor
+{
+  font-size: 12px;
+  font-weight: 'regular';
+  font-style: italic;
+}
+
+.searchItems:hover
+{
+  background-color: lightgray;
+  cursor: pointer;
+}

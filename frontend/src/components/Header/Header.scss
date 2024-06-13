@@ -1,0 +1,53 @@
+@import "../../common/colors.scss";
+
+.header {
+  background-color: $secondary-color;
+  height: 72px;
+  padding: 0px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: $font-primary;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tabs {
+  color: $font-primary;
+  font-size: 15px;
+  margin-left: 20px;
+  padding: 10px;
+  font-weight: 400;
+}
+
+.tabs:hover {
+  color: blue;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: lightblue;
+}
+
+.user-image,
+.user-image img {
+  width: 38px;
+  height: 38px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .header
+  {
+    display: block;
+    margin-bottom: 100px;
+
+
+  }
+
+
+}
